@@ -2,11 +2,7 @@
 
 자율주행 기술을 파이썬으로 배우는 학습 프로젝트
 
-## 팀 소개
-- **기계공학**: 자율주행 시스템 구현
-- **보안/해킹**: 자율주행 보안 취약점 분석
-
-—
+---
 
 ## 📚 학습 계획
 
@@ -23,6 +19,7 @@
 - 딥러닝 기반 자율주행
 
 **수강 체크리스트**
+- [ ] Week 0: 자율학습 및 자료 확인 (25.11.10(월) ~ 25.11.16(일) 예정)
 - [ ] Week 1: 자율주행 개론
 - [ ] Week 2: 센서 및 데이터 처리
 - [ ] Week 3: 컴퓨터 비전 기초
@@ -35,7 +32,7 @@
 **학습 노트**
 - `docs/kmooc-notes/` 폴더에 주차별 정리
 
-—
+---
 
 ### 2️⃣ Udacity 프로젝트
 
@@ -66,7 +63,7 @@ jupyter notebook P1.ipynb
 - [ ] 영상에서 실시간 처리
 - [ ] 다양한 조명 조건 테스트
 
-—
+---
 
 #### Project 2: 고급 차선 인식 (3주)
 📁 `projects/P2-Advanced-Lane-Lines/`
@@ -92,7 +89,7 @@ jupyter notebook
 - [ ] 곡선 차선 인식
 - [ ] 차선 이탈 경고 구현
 
-—
+---
 
 #### Project 3: 교통 표지판 분류 (3주)
 📁 `projects/P3-Traffic-Sign-Classifier/`
@@ -183,29 +180,37 @@ pip install tensorflow torch torchvision
 
 ## 📖 참고 자료
 
+### 강의
 - [K-MOOC 자율주행](https://edu.hyundai-ngv.com)
+
+### Udacity 프로젝트
 - [Udacity Self-Driving Car GitHub](https://github.com/udacity/self-driving-car)
-- [점프 투 파이썬](https://wikidocs.net/book/1)
-- [PyTorch 한국어 튜토리얼](https://tutorials.pytorch.kr/)
+
+### OpenCV 학습 자료
+
+**GitHub 레포 (코드 예제)**
+1. [동빈나 - 이미지 처리 튜토리얼](https://github.com/ndb796/Python-Data-Analysis-and-Image-Processing-Tutorial) - Colab 실행 가능, 초보자용
+2. [OpenCV 4로 배우는 컴퓨터 비전](https://github.com/sunkyoo/opencv4cvml) - 체계적인 예제, 추천!
+3. [파이썬으로 만드는 OpenCV 프로젝트](https://github.com/dltpdn/insightbook.opencv_project_python) - 실전 프로젝트
+
+**공식 문서**
+4. [OpenCV 공식 튜토리얼](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html) - 영어, 가장 정확한 레퍼런스
+
+**한국어 블로그/문서**
+5. [YUN DAE HEE - OpenCV 강좌](https://076923.github.io/categories/#Python-opencv) - 1~50강+, 함수별 정리, 한국어
+6. [예제로 배우는 파이썬 - OpenCV](http://pythonstudy.xyz/python/article/409) - 기초 예제, 웹캠/영상처리
+7. [위키독스 - OpenCV 함수 레퍼런스](https://wikidocs.net/231464) - 한국어 설명, 심화 내용
+
+### 기타
+- [점프 투 파이썬](https://wikidocs.net/book/1) - 파이썬 기초
+- [PyTorch 한국어 튜토리얼](https://tutorials.pytorch.kr/) - 딥러닝
 
 ---
-
-## 🎯 학습 목표
-
-### 2025 Q1 (1-3월)
-- [ ] K-MOOC 강의 완강
-- [ ] Udacity P1, P2 완료
-
-### 2025 Q2 (4-6월)
-- [ ] Udacity P3, P4 완료
-- [ ] 통합 프로젝트 시작
-
-—
 
 ## 📜 라이선스
 
 MIT License
 
-—
+---
 
-**Last Updated**: 2025-11-09
+**Last Updated**: 2025-11-10
